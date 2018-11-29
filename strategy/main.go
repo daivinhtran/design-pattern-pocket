@@ -6,10 +6,10 @@ import (
 
 func main() {
 	mallard := models.NewMallardDuck()
-	mallard.Duck.PerformFly()
-	mallard.Duck.PerformQuack()
+	mallard.PerformFly()
+	mallard.PerformQuack()
 
 	model := models.NewModelDuck()
-	model.Duck.PerformFly()
-	model.Duck.PerformQuack()
+	model.PerformFly()
+	model.PerformQuack()
 }
