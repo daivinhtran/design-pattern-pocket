@@ -9,6 +9,6 @@ type MallardDuck struct {
 func NewMallardDuck() *MallardDuck {
 	mallard := &MallardDuck{}
 	mallard.flyer = new(FlyWithWings) // inserts wings into MallwardDuck
-	mallard.quacker = new(Quack)
+	mallard.quacker = new(Quack)      // make sure it can quack
 	return mallard
 }
